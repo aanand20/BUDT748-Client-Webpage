@@ -1,0 +1,85 @@
+.contact,
+.contact * {
+  box-sizing: border-box;
+}
+.contact {
+  position: relative;
+  min-height: 100vh;
+  background: #29283c;
+  color: #ffffff;
+  padding-bottom: 5rem;
+}
+.bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: #29283c;
+  z-index: 0;
+}
+.main-menu,
+.contact-content,
+.footer {
+  position: relative;
+  z-index: 1;
+}
+.main-menu .navbar {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  padding: 1.5rem 2rem;
+}
+.main-menu .navbar .nav-link {
+  color: #f4f4f8 !important;
+}
+.main-menu .navbar .nav-link.active {
+  color: #a8ff35 !important;
+}
+.contact-content {
+  flex: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.contact-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+}
+.intro-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  line-height: 1.6;
+}
+.contact-group h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+.contact-group p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+.contact-group a {
+  color: #a8ff35;
+}
+.contact-group a:hover {
+  color: #ffffff;
+}
+.footer {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+.footer2 {
+  padding: 0;
+}
+.anmol-anand-university-of-maryland-fall-2025 {
+  font-size: 1rem;
+}

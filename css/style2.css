@@ -1,0 +1,94 @@
+.about,
+.about * {
+  box-sizing: border-box;
+}
+.about {
+  position: relative;
+  min-height: 100vh;
+  background: #29283c;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: #29283c;
+  z-index: 0;
+}
+.main-menu,
+.about-content,
+.footer {
+  position: relative;
+  z-index: 1;
+}
+.main-menu .navbar {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  padding: 1.5rem 2rem;
+}
+.main-menu .navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+.main-menu .navbar-brand:hover {
+  color: #a8ff35;
+}
+.main-menu .navbar .nav-link {
+  color: #f4f4f8 !important;
+  font-family: "Montserrat", sans-serif;
+}
+.main-menu .navbar .nav-link.active {
+  color: #a8ff35 !important;
+}
+.about-content {
+  flex: 1;
+  padding: 5rem 1.5rem 3rem;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.about-content h1,
+.about-content h2,
+.about-content h3,
+.about-content p,
+.about-content span {
+  font-family: "Montserrat", sans-serif;
+}
+.budt-748-industry-practicum {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+}
+.budt-748-is-the-capstone-course-for-ms-information-system-is-majors-where-students-apply-their-knowledge-to-develop-real-world-is-solutions-for-business-clients-through-a-complete-is-development-process-students-design-and-implement-functional-prototypes-that-solve-practical-business-challenges-preparing-them-for-careers-in-technology-and-consulting {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  line-height: 1.6;
+}
+.professor-paul-t-shapiro,
+.teaching-assistants-abhi-gupta-samiha-meah-zam-mozumder,
+.semester-details-fall-2025 {
+  font-size: 1.25rem;
+}
+.professor-paul-t-shapiro-span,
+.teaching-assistants-abhi-gupta-samiha-meah-zam-mozumder-span,
+.semester-details-fall-2025-span {
+  font-weight: 700;
+}
+.footer {
+  padding: 2rem 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+.footer2 {
+  padding: 0;
+}
+.anmol-anand-university-of-maryland-fall-2025 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}

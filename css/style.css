@@ -1,0 +1,93 @@
+.home,
+.home * {
+  box-sizing: border-box;
+}
+.home {
+  position: relative;
+  min-height: 100vh;
+  background: #29283c;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: #29283c;
+  z-index: 0;
+}
+.main-menu,
+.hero-section,
+.footer {
+  position: relative;
+  z-index: 1;
+}
+.main-menu .navbar {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  padding: 1.5rem 2rem;
+}
+.main-menu .navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+.main-menu .navbar-brand:hover {
+  color: #a8ff35;
+}
+.main-menu .navbar .nav-link {
+  color: #f4f4f8 !important;
+  font-family: "Montserrat", sans-serif;
+}
+.main-menu .navbar .nav-link.active {
+  color: #a8ff35 !important;
+}
+.hero-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5rem 1.5rem;
+  gap: 1.5rem;
+}
+.but-748-website-design {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+}
+.i-m-anmol-anand-i-ve-previously-worked-as-a-scrum-master-intern-at-cvent-and-a-technical-project-manager-at-a-startup-i-m-actively-looking-for-project-and-product-management-job-opportunities {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(1rem, 2.2vw, 1.5rem);
+  line-height: 1.6;
+  max-width: 48rem;
+}
+.call-to-action-button {
+  background: #a8ff35;
+  border-radius: 40px;
+  padding: 0.75rem 2.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.get-started {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #29283c;
+  font-size: 1.125rem;
+}
+.footer {
+  padding: 2rem 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+.anmol-anand-university-of-maryland-fall-2025 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
